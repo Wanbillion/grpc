@@ -18,7 +18,7 @@
   # the following comment is a simple way to re-build the image with a new Go
   # version.
   # latest points to 1.23.1 at the time of building.
-  FROM golang:latest
+  FROM golang:1.26rc2
 
   <%include file="../../go_path.include"/>
   # Define the default command.
